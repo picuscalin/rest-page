@@ -1,0 +1,33 @@
+body{
+    background-image: url("../img/download.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    height: 6vh;
+    width: 6vw;
+    border-radius: 50px;
+    background-color: red;
+
+}
+p{
+    color: white;
+}
+h1{
+    color: black;
+}
+#content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: flex-end;
+    
+    height:  900px;
+    border: 2px solid blue;
+}
